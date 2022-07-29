@@ -39,7 +39,7 @@ app.get("/video", (req, res) => {
         fs.createReadStream(path).pipe(res);
     });
 });
-
+    
 //
 // Starts the HTTP server.
 //
